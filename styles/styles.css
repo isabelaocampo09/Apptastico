@@ -20,6 +20,8 @@ body {
   background: #4c5b66;
   color: #fff;
   padding-bottom: 60px;
+  position: relative;
+  overflow: visible;
 }
 
 .nav {
@@ -36,12 +38,12 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 60px;
 }
 
 nav a {
   color: #fff;
-  text-decoration: none;
+   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   transition: opacity 0.3s;
 }
@@ -50,7 +52,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
   padding-top: 50px;
 }
 
@@ -59,16 +61,20 @@ nav a {
 }
 
 .hero-text h2 {
-  font-size: 42px;
+  font-size: 50px;
   margin-bottom: 15px;
+  font-weight: 300px;
 }
 
 .hero-text p {
   margin-bottom: 30px;
+  color: #91999d;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hero-btns {
-  margin-top: 25px;
+  margin-top: 10px;
+  background-color: #3a8dde;
 }
 
 .btn-one {
@@ -77,22 +83,115 @@ nav a {
   padding: 10px 22px;
   border-radius: 30px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 300px;
   margin-right: 15px;
 }
 
-.icon {
-  display: inline-block; /* Necesario para que tenga dimensiones */
-  width: 24px;
-  height: 24px;
-  background-image: url("/assets/images/shape01.png");
-  background-size: cover; /* Ajusta la imagen al tamaño del span */
-  background-position: center;
+.icon img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.btn-two {
+  display: inline-flex;         
+  align-items: center;          
+  gap: 10px;                   
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 1px;           
 }
 
 .hero-image img {
-  width: 300px;
+  width: 400px;
   justify-content: left;
+  align-items: baseline;
 }
 
+.clients {
+  background: #eeeeee;
+  padding: 20px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.feature {
+  width: 30%;
+}
+
+.feature .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn-secondary {
+  background: #3a8dde;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.projects {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.project-gallery img {
+  width: 23%;
+  border-radius: 5px;
+}
+
+.updates {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+.updates h3 {
+  margin-bottom: 15px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.twitter p {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.social a {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
 
